@@ -6,7 +6,7 @@ public class b_grading {
     // input - don't change this code
     Scanner scn = new Scanner(System.in);
     int marks = scn.nextInt();
-
+    scn.close();
     if (marks>90){
         System.out.println("excellent");
     }else if(marks>80 && marks<=90){
